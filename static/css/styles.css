@@ -1,0 +1,153 @@
+/* No margin in body */
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* No top margin in header */
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+
+  font-size: 90px;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 50px;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+/* 100 pixels from top, blue background, position relative to parent (don't change layout around)*/
+.top {
+  background-color: blue;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile {
+  margin-bottom: 50px;
+}
+
+.middle-container {
+  background-color: red;
+}
+
+.bottom-container {
+  background-color: pink;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/* 300 pixels from left, 300 pixels from bottom, and position relative to parent (change layout around)*/
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* 300 pixels from right, 50 pixels from top, and position relative to parent (change layout around)*/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+/*25% width for our profile image*/
+.profile-image {
+  width: 25%;
+  position: relative;
+  margin-top: 50px;
+}
+
+/*25% width, float on left side, and 30 pixels from element on right*/
+.skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/*25% width, float on right side, and 30 pixels from element on left*/
+.skill2-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*50% width, 100 pixels from element below and above, automatic set from left and right,
+aligh to left, and double line height*/
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/*
+Clear space near element left of it and place below
+.code-skill {
+  clear: left;
+}
+
+Clear space near element right of it and place below
+.workout {
+  clear: right;
+}
+*/
+
+/*Button art*/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 4;
+}
+
+/*Change layout of button when hovering over*/
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*Change color of link as we hover over it*/
+a:hover {
+  color: #EAF6F6;
+}
+
+.footer-link1 {
+  margin-right: 5px;
+}
+
+/* Dotted border */
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 20px;
+  width: 40%
+}
